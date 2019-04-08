@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Práctica 1</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="CSS/style.css">
+        <script src="JS/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="header" class="HeadFoot"> <!-- Lo de hasta arriba -->
+                practica 1
+            </div>
+            <div class="Logo"> <!-- Donde esta el logo-->
+                <img src="img/lol_logo.png">
+            </div>
+            <div> <!-- Menu de Botones-->
+                <ul>
+                    <li><button id="campeones">campeones</button></li>
+                    <li><button id="noticias">noticias</button></li>
+                    <li><button>esports</button></li>
+                    <li><button>foros</button></li>
+                    <li><button>comunidad</button></li>
+                    <li><button>soporte</button></li>
+                </ul>
+            </div>
+        </header>
+        <div id="cuadroInformacion"> <!-- Donde viene toda la info-->
+            <div class="Campeones">
+                <div class="CampeonesIMG"> <img src="img/Tristana_Square_0.png" id="C1" onclick="cambiarCampeon(this)"> tristana</div>
+                <div class="CampeonesIMG"> <img src="img/Janna_Square_0.png"> janna </div>
+                <div class="CampeonesIMG"> <img src="img/Shyvana_Square_0.png"> shyvana </div>
+                <div class="CampeonesIMG"> <img src="img/Galio_Square_0.png"> galio </div>
+                <div class="CampeonesIMG"> <img src="img/Tryndamere_Square_0.png" id="C5" onclick="cambiarCampeon(this)"> tryndamere </div>
+                <!--<img src="img/Tristana_Square_0.png" id="C1" class="CampeonesIMG" onclick="cambiarCampeon(this)">
+                <img src="img/Janna_Square_0.png" class="CampeonesIMG">
+                <img src="img/Shyvana_Square_0.png" class="CampeonesIMG">
+                <img src="img/Galio_Square_0.png" class="CampeonesIMG">
+                <img src="img/Tryndamere_Square_0.png" id="C5" class="CampeonesIMG" onclick="cambiarCampeon(this)">-->
+            </div>
+            <div id="cuadroIMG"> <!-- Cuadro de IMG, inferior izquierda-->
+                <div id="menuIMG"> <!-- Menu de tres IMG -->
+                    <img src="img/Tristana_0.jpg" id="S1" class="SkinCampeones" onclick="cambiarIMGTexto(this)">
+                    <img src="img/Tristana_1.jpg" id="S2" class="SkinCampeones" onclick="cambiarIMGTexto(this)">
+                    <img src="img/Tristana_2.jpg" id="S3" class="SkinCampeones" onclick="cambiarIMGTexto(this)">
+                </div>
+                <div id="IMGseleccionada"> <!-- Imagen seleccionada, aparece en grande -->
+                    <img src="img/Tristana_0.jpg" id="IMGmostrada">
+                </div>
+            </div>
+            <div id="cuadroTexto">
+                <h1 class="nombreCampeon" id="chn">tristana</h1>
+                <h2 class="aliasCampeon" id="cha">la artillera yordle</h2>
+                <h3 class="ciudadCampeon" id="chl">ciudad bandle</h3>
+                <div class="descripcionCampeon" id="chd">
+                    <p>
+                    La grandeza viene a veces en frascos pequeños, como demuestra esta diminuta artillera yordle. En medio de un mundo hostil, Tristana no da la espalda a reto alguno y ha conseguido convertirse en un arquetipo de habilidad marcial, valor a toda prueba y desbordante optimismo. Para Trist y su fiel cañón, Boomer, cada misión es una oportunidad de demostrar que los héroes existen.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div id="footer" class="HeadFoot">
+                programacion en internet
+            </div>
+        </footer>
+    </body>
+</html>
