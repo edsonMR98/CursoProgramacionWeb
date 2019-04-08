@@ -1,0 +1,33 @@
+body{
+    font-family: Arial;
+}
+
+.shape{
+    width:100px;
+    height: 100px;
+    background-color: #FF0000;
+    border-width: 1px;
+    border-style: solid; 
+    border-color: #000000;
+    display: inline-block;
+}
+
+thead{
+    background-color: rgb(227,223,215);
+}
+th{
+    padding: 3px 10px;
+}
+
+td{
+    text-align: center;
+}
+
+.subheader{
+    background-color: rgb(248,247,245);
+}
+
+div{
+    display: inline-block;
+    margin: 0px;
+}
